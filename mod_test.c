@@ -12,7 +12,7 @@
 **  for the URL /test in as follows:
 **
 **    #   apache2.conf
-**    LoadModule test_module modules/mod_test.so
+**    LoadModule test_module /usr/lib/apache2/modules/mod_test.so
 **    <Location /test>
 **    SetHandler test
 **    </Location>
